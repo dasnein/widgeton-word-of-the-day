@@ -5,8 +5,8 @@ import db from './db.json';
 let appLoading = true;
 
 // TODO: return start date
-// const START_DATE = '2024-07-24 00:00';
-const START_DATE = '2024-06-06 00:00';
+const START_DATE = '2024-07-24 00:00';
+// const START_DATE = '2024-06-06 00:00';
 
 const LANGUAGES = ['ru'];
 const currentLanguage = LANGUAGES[0];

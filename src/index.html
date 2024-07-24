@@ -4,11 +4,18 @@
     <meta charset="utf-8" />
     <title>Widgeton Word of the Day</title>
     <link rel="stylesheet" href="./style.scss" />
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
   <body>
     <div class="container">
+      <div class="loader" id="loader">
+        <h1>Слово дня</h1>
+        <img class="logo" src="./favicon.png" width="48" />
+      </div>
       <div class="card">
-        <h2 id="card-title"></h2>
+        <div class="card-title-container">
+          <h2 id="card-title"></h2>
+        </div>
         <div class="description" id="card-description-container">
           <p id="card-description-text" class="tooltip"></p>
         </div>

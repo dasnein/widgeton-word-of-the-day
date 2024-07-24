@@ -87,4 +87,6 @@ function init() {
   }
 }
 
+window.addEventListener('resize', init);
+
 (() => init())();

@@ -69,7 +69,6 @@ function setUpdateTimeout() {
 }
 
 function init() {
-  console.log(': init');
   toggleLoader(true);
 
   const startDate = dayjs(START_DATE);
